@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + "/index.html"));
 });
 
-app.listen(3000, () => {
-    console.log("server corriendo en el puerto", 3000);
+app.listen(8080, () => {
+    console.log("server corriendo en el puerto", 8080);
 });
